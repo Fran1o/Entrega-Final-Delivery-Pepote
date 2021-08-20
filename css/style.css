@@ -1,0 +1,623 @@
+@media screen and (max-width:768px) { 
+    
+    /*HASTA 768PX*/
+
+    .containerheader{
+        width: 100%;
+        background-color: rgb(110, 20, 20);
+    }
+
+    .titulo{
+        font-size: 50px;
+        text-align: center;
+        font-family: 'Lobster', cursive;
+        color: yellow;
+    }
+
+    .body{
+        background-image: url(./img/backgroundcel.png)
+    }
+
+    .containernav{
+        background-color: thistle;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav ul li{
+        
+        list-style: none;
+        font-size: 15px;
+        display: inline-block;
+    }
+
+    .nav ul li a{
+        text-decoration: none;
+        font-family: 'Staatliches', cursive;
+        color: black;
+    }
+
+    .nav ul li a:hover{
+        background-color: rgb(107, 55, 156);
+        transition: 0.4s;
+        display: block;
+    }
+    
+    .containerportada{
+        background-image: url(./img/424543\ \(FILEminimizer\).jpg);
+        width: 100%;
+        height: 200px;
+        background-repeat: no-repeat;
+    }
+
+    .containercarta{
+        text-align: center;
+        padding-top: 30px;
+       
+    }
+
+    .navcarta{
+    font-family: 'Lemon', cursive;
+    }
+
+    .navcarta ul li{
+        padding-top: 5px;
+        list-style: none; 
+        
+    }
+
+    .navcarta ul li a{
+        
+        text-decoration: none;
+        color: goldenrod;
+        font-size: 30px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 5px
+    }
+
+    .navcarta ul li a:hover{
+        transition: 0.4s;
+        background-color: yellowgreen;
+        color: black;
+    }
+
+    .bienvenidos{
+        
+        color: yellow;
+        text-align: center;
+        font-size: 20px;
+        background-color: rgb(110, 20, 20);
+    
+    }
+
+    .containerflex{
+        display: flex;
+        grid-template-columns: 2fr 1fr 1fr;
+        grid-gap: 27px;
+        background: rgb(110, 20, 20);
+        margin-top: 0px;
+        justify-content: center;
+        
+        }
+
+   
+
+    .divredes{
+        padding-top: 0px;
+        display: flex;
+        grid-gap: 30px;
+        line-height: 40px;
+        
+        
+    }
+
+    .botonig{
+        background-color: black;
+        
+
+
+    }
+
+    .botonig:hover{
+        transition: 0.4s;
+        color: black;
+        background-color: fuchsia;
+    }
+
+    .botonwpp{
+        background-color: black;
+        
+    }
+
+    .botonwpp:hover{
+
+        transition: 0.4s;
+        color: black;
+        background-color: green;
+
+    }
+
+    /*PROMOS*/
+
+    .headerpromos{
+        background-color: rgb(110, 20, 20);
+    }
+
+    .titulopromos{
+        color: yellow;
+        text-align: center;
+    }
+
+    .bodypromos{
+        background: #0A1931;
+    }
+
+    .promouno{
+        color: chartreuse;
+    }
+
+    .preciospromo{
+        color: burlywood;
+    }
+
+    .containerflexpromos{
+        display: flex;
+        grid-template-columns: 2fr 1fr 1fr;
+        grid-gap: 27px;
+        background: rgb(110, 20, 20);
+        margin-top: 20px;
+        justify-content: center;
+            
+    }
+
+    /*ESPECIALIDADES*/
+
+    .headerespecialidades{
+        background-color: rgb(110, 20, 20);
+    }
+
+    .tituloespecialidades{
+        color: yellow;
+        text-align: center;
+    }
+
+    .bodyespecialidades{
+        background: #0A1931;
+    }
+
+    .preciospizza{
+        color: burlywood;
+    }
+
+    .containerflexespecialidades{
+        display: flex;
+        grid-template-columns: 2fr 1fr 1fr;
+        grid-gap: 27px;
+        background: rgb(110, 20, 20);
+        margin-top: 20px;
+        justify-content: center;
+            
+    }
+
+    /*CONTACTO*/
+
+    .headercontacto{
+        background-color: rgb(110, 20, 20);
+    }
+
+    .titulocontacto{
+        color: yellow;
+        text-align: center;
+    }
+
+    .bodycontacto{
+        background: #0A1931;
+    }
+
+    .letrasformularios{
+        color: brown;
+    }
+
+    .containerflexcontacto{
+        display: flex;
+        grid-template-columns: 2fr 1fr 1fr;
+        grid-gap: 27px;
+        background: rgb(110, 20, 20);
+        margin-top: 20px;
+        justify-content: center;
+        
+    }
+
+    /*CARTA*/
+
+    .headercarta{
+
+        background-color: rgb(110, 20, 20);
+
+    }
+
+    .titulocarta{
+        color: yellow;
+        text-align: center;
+    }
+
+    .bodycarta{
+        background: #0A1931;
+    }
+
+    .precioscarta{
+        color: burlywood;
+    }
+
+    .item1{
+        color: burlywood;
+    }
+
+    .item2{
+        color: burlywood;
+    }
+
+    .item3{
+        color: burlywood;
+    }
+
+
+    .item4{
+        color: burlywood;
+    }
+
+    .item5{
+        color: burlywood;
+    }
+
+    .bodycarta{
+        background-image: url(./img/backgroundcel.png);
+    }
+
+}
+
+
+
+
+@media screen and (min-width:768px) {
+
+    /*A PARTIR DE 768PX*/
+
+    footer{
+        margin-top: 50px;
+    }
+
+    .containerheader{
+        width: 100%;
+        background-color: rgb(110, 20, 20);
+    }
+
+    .titulo{
+        font-size: 75px;
+        text-align: center;
+        font-family: 'Lobster', cursive;
+        color: goldenrod;
+    }
+
+    .body{
+        background-image: url(./img/depositphotos_272613258-stock-photo-black-brick-stone-wall-seamless\ \(FILEminimizer\).png);
+    }
+
+    .containernav{
+        background-color: rgb(110, 20, 20);
+        width: 100%;
+        text-align: center;
+        height: 47px;
+    }
+
+    .nav ul li{
+        
+        list-style: none;
+        font-size: 30px;
+        display: inline-block;
+    }
+
+    .nav ul li a{
+        text-decoration: none;
+        font-family: 'Staatliches', cursive;
+        color: white;
+    }
+
+    .nav ul li a:hover{
+        background-color: black;
+        transition: 0.4s;
+        display: block;
+        padding-top: 10px;
+        color: goldenrod;
+    }
+    
+    .containerportada{
+        background-image: url(./img/portadaparapc2\ \(FILEminimizer\).jpg);
+        width: 100%;
+        height: 400px;
+        background-repeat: no-repeat;
+    }
+
+    .containercarta{
+        text-align: center;
+        
+    }
+
+    .navcarta{
+    font-family: 'Lemon', cursive;
+    padding-top: 30px;
+    }
+
+    .navcarta ul li{
+        list-style: none; 
+        
+    }
+
+    .navcarta ul li a{
+        
+        text-decoration: none;
+        color: goldenrod;
+        font-size: 40px;
+        background-color: black;
+        border-radius: 5px
+    }
+
+    .navcarta ul li a:hover{
+        transition: 0.4s;
+        background-color: yellowgreen;
+        color: black;
+    }
+
+    .bienvenidos{
+        
+        color: goldenrod;
+        text-align: center;
+        font-size: 30px;
+        background-color: rgb(110, 20, 20);
+    
+    }
+
+    .containerflex{
+    display: flex;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-gap: 27px;
+    background: rgb(110, 20, 20);
+    margin-top: 0px;
+    justify-content: center;
+    
+    }
+
+   
+
+    .divredes{
+        padding-top: 0px;
+        display: flex;
+        grid-gap: 30px;
+        line-height: 40px;
+        
+        
+        
+    }
+
+    .botonig{
+        background-color: black;
+        
+        
+
+    }
+
+    .botonig:hover{
+        transition: 0.4s;
+        color: black;
+        background-color: fuchsia;
+    }
+
+    .botonwpp{
+        background-color: black;
+        
+    }
+
+    .botonwpp:hover{
+
+        transition: 0.4s;
+        color: black;
+        background-color: green;
+
+    }
+    
+     /*PROMOS*/
+
+     .headerpromos{
+        background-color: rgb(110, 20, 20);
+        height: 70px;
+    }
+
+    .titulopromos{
+        color: yellow;
+        text-align: center;
+        font-size: 55px;
+        padding-top: 7px;
+    }
+
+    .bodypromos{
+        background-image: url(./img/pepperoni-pizza-with-chili-rosemary-2849085\ \(FILEminimizer\).jpg);
+    }
+
+    .tablapromos{
+        background-color: rgba(0, 0, 0, 0.644);
+
+    }
+
+
+    .promouno{
+        color: chartreuse;
+    }
+
+    .preciospromo{
+        color: burlywood;
+    }
+
+    .tablapromos{
+        position: center;
+    }
+
+    .containerflexpromos{
+        display: flex;
+        grid-template-columns: 2fr 1fr 1fr;
+        grid-gap: 27px;
+        background: rgb(110, 20, 20);
+        margin-top: 200px;
+        justify-content: center;
+        
+        }
+    
+    
+
+    /*ESPECIALIDADES*/
+
+    .headerespecialidades{
+        background-color: rgb(110, 20, 20);
+        height: 70px;
+    }
+
+    .tituloespecialidades{
+        color: yellow;
+        text-align: center;
+        font-size: 55px;
+    }
+
+    .bodyespecialidades{
+        background-image: url(./img/imgespecialidades.jpg2\ \(FILEminimizer\).jpg);
+        background-repeat: no-repeat;
+    }
+
+    .preciospizza{
+        color: burlywood;
+    }
+
+    .bodycartaespecialidades{
+        background: black;
+    }
+
+    .containerflexespecialidades{
+        display: flex;
+        grid-template-columns: 2fr 1fr 1fr;
+        grid-gap: 27px;
+        background: rgb(110, 20, 20);
+        margin-top: 150px;
+        justify-content: center;
+        
+        }
+
+    /*CONTACTO*/
+
+    .headercontacto{
+        background-color: rgb(110, 20, 20);
+        height: 70;
+    }
+
+    .titulocontacto{
+        color: yellow;
+        text-align: center;
+        font-size: 55px;
+    }
+
+    .bodycontacto{
+        background-image: url(./img/contacto.jpg);
+        background-repeat: no-repeat;
+    }
+
+    .letrasformularios{
+        color: brown;
+    }
+
+    .formulario{
+        margin-top: 150px;
+    }
+
+    .containerflexcontacto{
+        display: flex;
+        grid-template-columns: 2fr 1fr 1fr;
+        grid-gap: 27px;
+        background: rgb(110, 20, 20);
+        margin-top: 50px;
+        justify-content: center;
+        
+        }
+
+    /*CARTA*/
+
+    .headercarta{
+        background-color: burlywood;
+    }
+
+    .titulocarta{
+        color: black;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Ultra', serif;
+    }
+
+    .containerprecioscarta{
+        padding: 10px;
+        background-color: black;
+        display: grid;
+        grid-template-columns: 5fr 5fr 5fr 5fr 5fr;
+        grid-template-rows: 200px 200px 200px 200px 200px;
+        grid-gap: 15px;
+        height: 800px;
+    }
+
+    .item1{
+        background-color: burlywood;
+  
+        grid-column: 1;
+        grid-row: 1;
+        grid-gap: 15px;
+        height: 800px;
+        
+    }
+
+    .item2{
+        background-color: burlywood;
+
+        height: 800px;
+    }
+
+    .item3{
+        background-color: burlywood;
+   
+        height: 800px;
+
+    }
+
+    .item4{
+        background-color: burlywood;
+    
+        height: 800px;
+
+    }
+
+    .item5{
+        background-color: burlywood;
+        height: 800px;
+   
+    }
+
+    .precioscarta{
+        color: black;
+  
+
+    }
+
+    .bodycarta{
+        background-image: url(./img/depositphotos_272613258-stock-photo-black-brick-stone-wall-seamless\ \(FILEminimizer\).png);
+    }
+
+
+
+
+
+
+
+}
